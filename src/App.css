@@ -1,38 +1,46 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+body {
+  font-family: 'Baloo 2', cursive;
+  background: #abfecc;
+  color: #333;
+}
+
+h1 {
   text-align: center;
+  color: rgb(66, 66, 66);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  font-size: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.601);
+  margin: 0 auto;
+  margin-top: 10%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+button {
+  width: 100px;
+  padding: .5rem;
+  margin: .5rem;
+  background-color: rgb(253, 154, 118);
+  border: none;
+  border-radius: .2rem;
+  font-family: inherit;
   color: white;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
 }
